@@ -15,7 +15,7 @@ def fill_test_data(clinic):
 
 
 def main():
-    clinic = ClinicService("MyHealth")
+    clinic = ClinicService("ClinicManager")
 
     clinic.load_data()
 
